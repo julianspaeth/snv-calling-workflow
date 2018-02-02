@@ -1,15 +1,4 @@
-# SNP Calling - A Comparison of Tools and Methods
-
-# The Project
-SNV calling describes the act of detecting so-called SNVs, single nucleotide variants. These are variations in the genetic code, specified for a single nucleotide site, of individuals within a species, or within different cells from a single organism, for example by comparing healthy tissue to cancer tissue.
-SNVs are therefore certain cases of the more generalized single nucleotide polymorphisms, [SNPs](https://www.nature.com/scitable/definition/single-nucleotide-polymorphism-snp-295). 
-Considering the whole genome sequence of a virus, an organism or single tissue cells as reference, we can align the assembled result from NGS, next-generation sequencing, and then detect single nucleotide deletions, insertions, or substitutions. Before making diagnostic considerations, general statistical values can be extracted from SNV calling, e.g. frequencies and locations of variations. The whole process from NGS reads and reference genome to those statistical values could be simplified by calling the required applications in a scripting based approach, and keeping the applied tools and methods within the script file modular, we can then detect and interpret differences between those tools. Since there is quite a selection of assembly tools alone (e.g. bowtie-2, BWA, segemehl, ...), the same set of NGS reads and references could yield different results for each tool ([bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml), [bwa](http://bio-bwa.sourceforge.net/)}. 
-
-Even though such an approach has already been done in a rather large format, the main goal of our project is supposed to present a simple overview of tools and their differences in regards of speed, error rate, and use-convenience, in order to provide an outline that could also be helpful to our fellow students, should they be confronted with the task of SNV calling in the future.  
-Further, applying applications of phylogenetic tree generation, comparing the output of each run can be visualized.
-
-
-# The Workflow
+# SNV Calling Workflow
 
 ![5](docs/snp_workflow_graph/snp_workflow_final.jpg)
 
