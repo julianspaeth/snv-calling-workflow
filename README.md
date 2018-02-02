@@ -1,6 +1,6 @@
 # SNV Calling Workflow
 
-![5](docs/snp_workflow_graph/snp_workflow_final.jpg)
+![5](snp_workflow_final.jpg)
 
 ## Tools need to be installed:
 
